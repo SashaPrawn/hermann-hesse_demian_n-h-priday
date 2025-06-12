@@ -4,3 +4,7 @@
 section[epub|type~="prologue"]{
 	margin-top: 20vh;
 }
+
+#prologue blockquote{
+    font-style: italic;
+}
