@@ -6,5 +6,5 @@ section[epub|type~="prologue"]{
 }
 
 #prologue blockquote{
-    font-style: italic;
+	font-style: italic;
 }

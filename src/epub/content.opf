@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/hermann-hesse/demian/n-h-priday</dc:identifier>
+		<dc:identifier id="uid">https://standardebooks.org/ebooks/hermann-hesse/demian/n-h-priday</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
+		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
+		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -28,6 +28,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Demian</dc:title>
 		<meta property="file-as" refines="#title">Demian</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">The Story of Emil Sinclair’s Youth</dc:title>
+		<meta property="file-as" refines="#subtitle">Story of Emil Sinclair’s Youth, The</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Demian: The Story of Emil Sinclair’s Youth</dc:title>
+		<meta property="file-as" refines="#fulltitle">Demian</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Bildungsromans</dc:subject>
 		<dc:subject id="subject-2">Young men -- Germany -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Germany -- Social conditions -- 1918-1933 -- Fiction</dc:subject>
@@ -37,46 +44,43 @@
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
-		</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Philosophy</meta>
+		<meta property="se:subject">Spirituality</meta>
+		<dc:description id="description">A boy goes on a journey of spiritual growth throughout his early life.</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">&lt;p&gt;From a young age, Emil Sinclair finds himself living in two different worlds, one of moral clarity with a perceived cleaniness and order, and the other of disorder and scandal, containing the ugly behaviors and circumstances in the world. As Emil progresses through his childhood, he begins to question his place in these two worlds, and goes on a rocky journey of philosophical growth and elightenment, often aided by his enigmatic friend Demian.&lt;/p&gt; &lt;p&gt;In the 1910s, &lt;a href="https://standardebooks.org/ebooks/hermann-hesse"&gt;Hesse&lt;/a&gt; began undergoing psychoanalytic treatment hoping to deal with psychological difficulties from his youth. This led him to become interested in the growing field of psychoanalysis, in particular Jungian philosophy. Hesse include much symbolism and archetypes related to the field in &lt;i&gt;Demian&lt;/i&gt;, and based part of the novel on his own psychological qualms he had in his childhood.&lt;/p&gt;;</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/74222</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://catalog.hathitrust.org/Record/102954224</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Demian</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/hermann-hesse_demian_n-h-priday</meta>
 		<dc:creator id="author">Hermann Hesse</dc:creator>
 		<meta property="file-as" refines="#author">Hesse, Hermann</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Hermann Karl Hesse</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Hermann_Hesse</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n79006698</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79006698</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">N. H. Priday</dc:contributor>
 		<meta property="file-as" refines="#translator">Priday, N. H.</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">CONTRIBUTOR_NACOAF_URI</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Bruno Liljefors</dc:contributor>
+		<meta property="file-as" refines="#artist">Liljefors, Bruno</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Bruno Andreas Liljefors</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Bruno_Liljefors</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n81145857</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Steve Mattern</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Mattern, Steve</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">https://pgdp.net</meta>
+		<meta property="se:url.homepage" refines="#transcriber-2">https://www.pgdp.net/</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Alex Cabrera</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cabrera, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/SashaPrawn/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
